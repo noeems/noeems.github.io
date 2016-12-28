@@ -3030,10 +3030,10 @@
 	#banner {
 		background-attachment: scroll,							fixed;
 		background-color: #666;
-		background-image: url("images/overlay.png"), url("../../images/banner.jpg");
-		background-position: top left,						center center;
-		background-repeat: repeat,							no-repeat;
-		background-size: auto,							cover;
+		background-image: url("../../images/lisbon-panteao-nacional.jpg");
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
 		color: #fff;
 		padding: 12em 0 20em 0;
 		text-align: center;
@@ -3756,6 +3756,10 @@
 
 			#cta {
 				padding: 2.5em 1em 3em 1em;
+			}
+
+	}
+m;
 			}
 
 	}
