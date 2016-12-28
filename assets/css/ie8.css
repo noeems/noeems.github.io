@@ -1,155 +1,161 @@
 /*
-	Helios by HTML5 UP
-	html5up.net | @n33co
+	Alpha by HTML5 UP
+	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
 /* Basic */
 
-	a {
-		border-bottom: solid 1px #ddd;
-	}
-
-	hr {
-		border-top: solid 1px #777;
-		border-bottom: solid 1px #777;
-	}
-
-	.timestamp {
-		color: #777;
-	}
-
-/* Section/Article */
-
-	section > .last-child, section.last-child, article > .last-child, article.last-child {
-		margin-bottom: 0;
-	}
-
-/* List */
-
-	ul.divided li {
-		border-top: solid 1px #777;
-	}
-
-	ul.menu li {
-		border-left: solid 1px #777;
-	}
-
-	ul.icons {
-		background: #333;
+	pre, code {
+		position: relative;
 		-ms-behavior: url("assets/js/ie/PIE.htc");
 	}
+
+/* Form */
+
+	input[type="text"],
+	input[type="password"],
+	input[type="email"],
+	select,
+	textarea {
+		position: relative;
+		-ms-behavior: url("assets/js/ie/PIE.htc");
+		line-height: 3em;
+	}
+
+	input[type="checkbox"],
+	input[type="radio"] {
+		opacity: 1;
+		z-index: auto;
+	}
+
+		input[type="checkbox"] + label:before,
+		input[type="radio"] + label:before {
+			display: none;
+		}
 
 /* Button */
 
+	input[type="submit"],
+	input[type="reset"],
+	input[type="button"],
 	.button {
+		position: relative;
 		-ms-behavior: url("assets/js/ie/PIE.htc");
 	}
 
-/* Icons */
+		input[type="submit"].alt,
+		input[type="reset"].alt,
+		input[type="button"].alt,
+		.button.alt {
+			border: solid 2px #e5e5e5;
+		}
 
-	.icon.circled {
+/* Box */
+
+	.box {
+		position: relative;
 		-ms-behavior: url("assets/js/ie/PIE.htc");
 	}
+
+		.box .image.featured {
+			margin: 2em 0;
+			width: 100%;
+		}
+
+/* Icon */
+
+	.icon.major {
+		position: relative;
+		-ms-behavior: url("assets/js/ie/PIE.htc");
+	}
+
+/* Image */
+
+	.image {
+		position: relative;
+		-ms-behavior: url("assets/js/ie/PIE.htc");
+	}
+
+		.image img {
+			position: relative;
+			-ms-behavior: url("assets/js/ie/PIE.htc");
+		}
 
 /* Header */
 
-	#header {
-		-ms-behavior: url("assets/js/ie/backgroundsize.min.htc");
+	#header nav > ul > li a {
+		color: #fff;
+		display: inline-block;
+		text-decoration: none;
+		border: 0;
 	}
 
-	body.homepage #header {
-		height: auto;
-		min-height: 0;
-		padding: 12em 0 12em 0;
-	}
-
-		body.homepage #header:after {
-			display: none;
+		#header nav > ul > li a.icon:before {
+			color: #fff;
+			margin-right: 0.5em;
 		}
 
-/* Nav */
-
-	#nav > ul:before, #nav > ul:after {
-		border-top: solid 1px #777;
-		border-bottom: solid 1px #777;
+	#header.alt {
+		color: #fff;
 	}
 
-	#nav > ul > li {
-		-ms-behavior: url("assets/js/ie/PIE.htc");
-	}
+		#header.alt nav > ul > li a:not(.button).icon:before {
+			color: rgba(255, 255, 255, 0.75);
+		}
 
-		#nav > ul > li.active {
-			border-color: #999;
+		#header.alt nav > ul > li.active a:not(.button) {
+			background-color: rgba(255, 255, 255, 0.2);
 		}
 
 	.dropotron {
-		background: #fff;
-		-ms-behavior: url("assets/js/ie/PIE.htc");
+		border: solid 1px #e5e5e5;
 	}
-
-		.dropotron li {
-			border-color: #eee;
-			padding-right: 1em;
-			color: #5b5b5b;
-		}
 
 		.dropotron.level-0 {
-			box-shadow: none !important;
-			margin-top: 1em;
+			margin-top: 0;
 		}
 
-/* Carousel */
-
-	.carousel .forward, .carousel .backward {
-		border-radius: 100%;
-		background-color: #483949;
-		width: 7em;
-		height: 7em;
-		margin-top: -3.5em;
-		border-radius: 100%;
-		-ms-behavior: url("assets/js/ie/PIE.htc");
-	}
-
-		.carousel .forward:before, .carousel .backward:before {
-			display: none;
-		}
-
-	.carousel .forward {
-		right: -3.5em;
-	}
-
-	.carousel .backward {
-		left: -3.5em;
-	}
-
-/* Footer */
-
-	#footer ul.divided li {
-		border-color: #3B373C;
-	}
-
-	#footer ul.menu li {
-		border-color: #3B373C;
-	}
-
-	#footer hr {
-		border-color: #3B373C;
-	}
-
-	#footer .icons {
-		background: #2F2930;
-	}
-
-	#footer .copyright {
-		color: #777;
-	}
-
-		#footer .copyright a {
-			color: #aaa;
-			border: 0;
-		}
-
-			#footer .copyright a:hover {
-				color: #ccc;
+			.dropotron.level-0:before {
+				display: none;
 			}
+
+/* Banner */
+
+	#banner {
+		background-attachment: scroll;
+		background-image: url("../../images/banner.jpg");
+		background-position: auto;
+		background-repeat: no-repeat;
+		background-size: cover;
+		-ms-behavior: url("assets/js/ie/backgroundsize.min.htc");
+	}
+
+		#banner input[type="submit"],
+		#banner input[type="reset"],
+		#banner input[type="button"],
+		#banner .button {
+			border: solid 2px #fff;
+		}
+
+/* Main */
+
+	#main {
+		position: relative;
+		z-index: 1;
+	}
+
+/* CTA */
+
+	#cta input[type="text"],
+	#cta input[type="password"],
+	#cta input[type="email"],
+	#cta select,
+	#cta textarea {
+		background: #e89980;
+		border: solid 2px #fff;
+	}
+
+	#cta .formerize-placeholder {
+		color: #fff !important;
+	}
