@@ -1,5 +1,5 @@
 @import url("font-awesome.min.css");
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic");
+@import url("https://fonts.googleapis.com/css?family=Heebo:300,400");
 
 /*
 	Alpha by HTML5 UP
@@ -1797,8 +1797,8 @@
 
 	body, input, select, textarea {
 		color: #777;
-		font-family: "Source Sans Pro", sans-serif;
-		font-size: 16pt;
+		font-family: "Heebo", sans-serif;
+		font-size: 20px;
 		font-weight: 300;
 		line-height: 1.65em;
 		letter-spacing: -0.015em;
@@ -3239,9 +3239,7 @@
 
 		/* Basic */
 
-			body, input, select, textarea {
-				font-size: 13pt;
-			}
+
 
 		/* Banner */
 
@@ -3257,9 +3255,6 @@
 
 		/* Basic */
 
-			body, input, select, textarea {
-				font-size: 11pt;
-			}
 
 		/* Header */
 
@@ -3283,11 +3278,6 @@
 
 	@media screen and (max-width: 980px) {
 
-		/* Basic */
-
-			body, input, select, textarea {
-				font-size: 11pt;
-			}
 
 	}
 
@@ -3303,10 +3293,6 @@
 
 			html, body {
 				overflow-x: hidden;
-			}
-
-			body, input, select, textarea {
-				font-size: 11pt;
 			}
 
 			h2 br, h3 br, h4 br, h5 br, h6 br {
@@ -3526,9 +3512,6 @@
 
 		/* Basic */
 
-			body, input, select, textarea {
-				font-size: 11pt;
-			}
 
 			h2 {
 				font-size: 1.75em;
@@ -3660,10 +3643,6 @@
 
 			html, body {
 				min-width: 320px;
-			}
-
-			body, input, select, textarea {
-				font-size: 11pt;
 			}
 
 		/* Section/Article */
