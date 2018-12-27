@@ -3234,6 +3234,74 @@
 			color: rgba(255, 255, 255, 0.75) !important;
 		}
 
+		/* CTA 2*/
+
+			#cta2 {
+				background: #298A74;
+				color: #f9e5df;
+				padding: 3.5em 4em 4em 4em;
+				text-align: center;
+			}
+
+				#cta2 h2, #cta2 h3, #cta2 h4, #cta2 h5, #cta2 h6 {
+					color: inherit;
+				}
+
+				#cta2 form {
+					margin: 0 auto;
+					max-width: 100%;
+					width: 25em;
+				}
+
+				#cta2 input[type="submit"],
+				#cta2 input[type="reset"],
+				#cta2 input[type="button"],
+				#cta2 .button {
+					box-shadow: none;
+					background: #fff;
+					color: #e89980;
+				}
+
+				#cta2 input[type="text"],
+				#cta2 input[type="password"],
+				#cta2 input[type="email"],
+				#cta2 select,
+				#cta2 textarea {
+					color: #ffffff;
+					background: rgba(255, 255, 255, 0.15);
+					border: 0;
+				}
+
+					#cta2 input[type="text"]:focus,
+					#cta2 input[type="password"]:focus,
+					#cta2 input[type="email"]:focus,
+					#cta2 select:focus,
+					#cta2 textarea:focus {
+						box-shadow: inset 0 0 0 2px #fff;
+					}
+
+				#cta2 ::-webkit-input-placeholder {
+					color: rgba(255, 255, 255, 0.75) !important;
+				}
+
+				#cta2 :-moz-placeholder {
+					color: rgba(255, 255, 255, 0.75) !important;
+				}
+
+				#cta2 ::-moz-placeholder {
+					color: rgba(255, 255, 255, 0.75) !important;
+				}
+
+				#cta2 :-ms-input-placeholder {
+					color: rgba(255, 255, 255, 0.75) !important;
+				}
+
+				#cta2 .formerize-placeholder {
+					color: rgba(255, 255, 255, 0.75) !important;
+				}
+
+
+
 /* Wide */
 
 	@media screen and (max-width: 1680px) {
